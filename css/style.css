@@ -150,7 +150,12 @@ article {
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    width: 1400px;
+    width: 100%;
+}
+
+.main_news-container img{
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .main_news_photos {
