@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    background-color: #282525;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 172.36px;
+    height: 47px;
+    background: rgba(217, 217, 217, 0.25);
+    border: 1px solid #000000;
+    border-radius: 70px;
+    margin: 0 20px 0;
+}
+
+.socials:hover{
+    background-color: #009099;
+    opacity: 0.8;
+}
+
+.insta {
+    display: flex;
+    margin: 2px 0px 0px 20px;
+    justify-content: space-between;
+    height: 50px;
+    width: 50px;
+}
+
+.vk {
+    display: flex;
+    margin: 2px;
+    justify-content: space-between;
+    height: 50px;
+    width: 50px;
+}
+
+#logo {
+    display: flex;
+    width: 120px;
+    height: 100px;
+}
+
+body {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #009099;
+    animation: render 5s ease-in-out infinite;
+}
+
+header .menu ul {
+    display: flex;
+    list-style: none;
+    vertical-align: center;
+}
+
+header .menu ul li {
+    margin: 40px 80px;
+    letter-spacing: 3px;
+
+}
+
+.menu a {
+    padding: 10px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.menu li:hover{
+    background-color: white;
+    border-radius: 20%;
+    height:100%
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 75%;
+    margin: 0 0 0 150px;
+}
+
+footer {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    color: #585555;
+}
+
+
+
+@keyframes render{
+    0%{
+        background-color: #009099;
+    }
+    50%{
+        background-color: rgb(162, 186, 209);
+    }
+    100%{
+        background-color: #009099;
+    }
+}

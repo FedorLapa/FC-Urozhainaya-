@@ -1,0 +1,153 @@
+@media only screen and (max-width : 500px) {
+    * {
+        max-width: 360px;
+    }
+
+    .header-socials {
+        justify-content: flex-end;
+        width: 345px;
+        margin-left: 15px;
+
+    }
+
+    #logo {
+        display: inline;
+        width: 150px;
+        height: 150px;
+        margin-left: 100px;
+
+    }
+
+    header {
+        flex-direction: column;
+        width: 360px;
+    }
+
+    header .menu ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .menu ul li {
+        margin: 5px;
+    }
+
+    .main_news-container {
+        height: 170px;
+    }
+
+    .buttons {
+        left: 10px;
+        top: 430px;
+    }
+
+    .button {
+        margin-top: 10px;
+        width: 50px;
+        height: 15px;
+    }
+    .scroll {
+        transform: translateX(-100%);
+        transition: .3s;
+    }
+    
+    .scroll-full {
+        transform: translateX(-200%);
+        transition: .3s;
+    }
+
+    .text{
+        font-size: 13px;
+        line-height: 16px;
+    }
+        
+
+    .title-between {
+        width: 270px;
+        height: 50px;
+    }
+
+    .title-between p {
+        font-size: 25px;
+    }
+
+    .main-season {
+        flex-direction: column;
+        height: 980px;
+        margin: 10px;
+        align-items: flex-start;
+    }
+
+    .second_league {
+        display: none;
+    }
+
+
+    .table_teams {
+        margin-top: 5px;
+        width: 340px;
+        height: 572px;
+    }
+
+    .table_teams p {
+        font-size: medium;
+    }
+
+    .descript-team {
+        margin: 5px 0 0 98px;
+    }
+
+    .descript-games {
+        margin: 5px 0 0 82px;
+    }
+
+    .descript-points {
+        margin: 5px 12px 0 0px;
+    }
+
+    .table_strikers {
+        margin-top: 10px;
+        width: 340px;
+        height: 351px;
+
+    }
+
+    .title-between-sponsor {
+        margin-top: -5px;
+        width: 270px;
+        height: 50px;
+    }
+
+    .title-between-sponsor p {
+        font-size: 25px;
+    }
+
+    .main-sponsor {
+        height: 500px;
+    }
+
+    .main-sponsor-unit {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: none;
+    }
+
+    .sponsor-firm img {
+        margin-top: 10px;
+    }
+
+    .sponsor-macron img {
+        align-items: center;
+        margin: 10px 20px 0 0;
+        width: 310px;
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {    
+    .buttons{
+        bottom:250px;
+    }
+}
